@@ -12,7 +12,7 @@ Use this skeleton application to quickly setup and start working on a new Slim F
 
 3) docker-compose up -d
 
-4) chmod -R 777 slim/logs
+4) chmod -R 777 logs
 
 5) docker exec -i slim_db mysql -uroot -ppassword slim < slim.sql
 

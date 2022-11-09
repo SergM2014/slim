@@ -90,8 +90,8 @@ $app->addRoutingMiddleware();
 $app->addBodyParsingMiddleware();
 
 // Add Error Middleware
-// $errorMiddleware = $app->addErrorMiddleware($displayErrorDetails, $logError, $logErrorDetails);
-// $errorMiddleware->setDefaultErrorHandler($errorHandler);
+$errorMiddleware = $app->addErrorMiddleware($displayErrorDetails, $logError, $logErrorDetails);
+$errorMiddleware->setDefaultErrorHandler($errorHandler);
 
 function dd($data)
 {
