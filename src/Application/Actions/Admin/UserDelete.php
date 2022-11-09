@@ -24,9 +24,8 @@ class UserDelete extends Action
     {
         $data = $this->getFormData();
 
-       // $isDeleted = $this-> myUserRepository->getUsers($data['id']);
-       $isDeleted = true;
-
+        $isDeleted = $this-> myUserRepository->getUsers($data['id']);
+       
         return $this->respondWithData();
     }
 
