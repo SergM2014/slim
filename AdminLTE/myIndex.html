@@ -1,0 +1,16 @@
+<style>
+    a {
+        float:right;
+        margin-left: 10px;;
+    }
+</style>
+
+<div>
+    {% if isAdmin %}
+        <a href="/logout">Logout</a>
+    {% else %}
+         <a href="/login">Login</a><a href="/register">Register</a>
+    {% endif %}
+</div>
+<p>{{message}}</p>
+<h1>your sessionId = {{sessionId}}</h1>
