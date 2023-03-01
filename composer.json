@@ -24,7 +24,7 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "monolog/monolog": "^2.8",
+        "monolog/monolog": "^2.9",
         "php-di/php-di": "^6.4",
         "phpmailer/phpmailer": "^6.6",
         "selective/validation": "^2.0",
